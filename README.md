@@ -13,9 +13,9 @@ segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa IdeiaAtiva visa colaborar com desenvolvimento de sistemas para uma sociedade melhor. Sabendo-se da dificuldade que é encontrar pessoas que compartilhem os mesmos objetivos dentro de uma mesma empresa, e visando unir estas em torno de um para trabalho colaborativo, ficamos motivados com o desenvolvimento deste trablaho. O Sistema "Poço de Ideias" foi criado visando ser um espaço onde as pessoas possam inserir ideias, na busca de pessoas dispostas a executá-las (seja por aprendizado ou por acreditaram que estarão contribuindo para uma sociedade melhor). As premissas do sistema tem como base estudos de ambientes que são motores de inovação e geração de ideias  como abordados pelo livro !["De onde vem as boas ideias" de Stevem Jhonson](https://www.youtube.com/watch?v=uTRf4wqCLuE?raw=true "Vídeo resumido que aborda o livro"). O sistema pode inclusive receber ajuda tanto de outras pessoas, como empresas interessadas em colaborar no desenvolvimento dos projetos/ideias propostas. 
+> A empresa IdeiaAtiva visa colaborar com desenvolvimento de sistemas para uma sociedade melhor. Sabendo-se da dificuldade que é encontrar pessoas que compartilhem os mesmos objetivos dentro de uma mesma empresa, e visando unir estas em torno de um para trabalho colaborativo, ficamos motivados com o desenvolvimento deste trablaho. O Sistema "Poço de Ideias" foi criado visando ser um espaço onde as pessoas possam inserir ideias, na busca de pessoas dispostas a executá-las (seja por aprendizado ou por acreditaram que estarão contribuindo para uma sociedade melhor). As premissas do sistema tem como base estudos de ambientes que são motores de inovação e geração de ideias  como abordados pelo livro !["De onde vem as boas ideias" de Stevem Jhonson](https://www.youtube.com/watch?v=uTRf4wqCLuE?raw=true "Vídeo resumido que aborda o livro"). O sistema pode inclusive receber ajuda tanto de outras pessoas, como empresas interessadas em colaborar no desenvolvimento dos projetos/ideias propostas na plataforma. 
 
-### 3.MINI-MUNDO<br>
+### 3.MINI-MUNDO Novo<br>
 
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
 Entrevista com o usuário e identificação dos requisitos.<br>
@@ -23,14 +23,7 @@ Descrição textual das regras de negócio definidas como um  subconjunto do mun
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
-> O sistema proposto conterá informações sobre pessoas, ideias, categorias, lancamento da ideia, <br>
-colaboração e comentários. Sobre pessoas o sistema terá informações como: código, nome, e se é uma pessoa <br>
-física ou jurídica. Já sobre as ideias as informações armazenadas serão: código, nome, descricao, e categoria<br>
-da ideia.A categoria por sua vez terá um código e um nome. Quando uma ideia é criada, devemos saber a data de sua <br> 
-criação, o(s) dono(s) da ideia e qual é a ideia propriamente dita Para o lancamento, é imporante armazenarmos o <br>
-código e da data de lançamento, a ideia e pessoa(as) que criaram a ideia. Para colaborações é preciso temos <br>
-informações sobre: código da colaboração,descricao da colaboracao. Já para comentários, devemos armazenar o <br>
-código e a descricao deste. 
+> O sistema proposto conterá informações sobre pessoas, ideias, categorias, lancamento da ideia, colaboração e comentários. Sobre pessoas o sistema terá informações como: código, nome, e se é uma pessoa física ou jurídica. Já sobre as ideias as informações armazenadas serão: código, nome, descricao, e categoria da ideia.A categoria por sua vez terá um código e um nome. Quando uma ideia é criada, devemos saber a data de sua criação, o(s) dono(s) da ideia e qual é a ideia propriamente dita Para o lancamento, é imporante armazenarmos o código e da data de lançamento, a ideia e pessoa(as) que criaram a ideia. Para colaborações é preciso temos informações sobre: código da colaboração,descricao da colaboracao. Já para comentários, devemos armazenar o código e a descricao deste.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
