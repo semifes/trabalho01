@@ -133,20 +133,94 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+
+#### 9.11	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
+        Detalhamento sobre funcionalidade de cada código.
+        a) Objetivo
+        b) Código do objeto (função/trigger/asserção)
+        c) exemplo de dados para aplicação
+        d) resultados em forma de tabela/imagem
+<br>
+
+#### 9.12	Administração do banco de dados<br>
+        Descrição detalhada sobre como serão executadas no banco de dados as <br>
+        seguintes atividades.
+        a) Segurança e autorização de acesso:
+        b) Estimativas de aquisição de recursos para armazenamento e processamento da informação
+        c) Planejamento de rotinas de manutenção e monitoramento do banco
+        d) Plano com frequencia de análises visando otimização de performance
+<br>
+
+#### 9.13	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
+        a) principal tabela do sistema deve ter no mínimo 1,5 milhão de registros
+        b) tabelas diretamente relacionadas a tabela principal 100 mil registros
+        c) tabelas auxiliares de relacao multivalorada mínimo de 10 registros
+        d) registrar o tempo de inserção em cada uma das tabelas do banco de dados
+        e) especificar a quantidade de registros inseridos em cada tabela
+        Para melhor compreensão verifiquem o exemplo na base de testes:<br>
+        https://github.com/discipbd2/base-de-testes-locadora
+        
+
+
+#### 9.14	Backup do Banco de Dados<br>
+        Detalhamento do backup.
+        a) Tempo
+        b) Tamanho
+        c) Teste de restauração (backup)
+        d) Tempo para restauração
+        e) Teste de restauração (script sql)
+        f) Tempo para restauração (script sql)
+<br>
+
+Data de Entrega: (Data a ser definida)
+<br>
+
+#### 9.15	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
+    a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas 
+    b) Performance esperada VS Resultados obtidos
+    c) Tabela de resultados comparando velocidades antes e depois da aplicação dos índices (constando velocidade esperada com planejamento, sem indice e com índice Vs velocidade de execucao real com índice e sem índice).
+    d) Escolher as consultas mais complexas para serem analisadas (consultas com menos de 2 joins não serão aceitas)
+    e) As imagens do Explain devem ser inclusas no trabalho, bem como explicações sobre os resultados obtidos.
+    f) Inclusão de tabela mostrando as 10 execuções, excluindo-se o maior e menor tempos para cada consulta e 
+    obtendo-se a media dos outros valores como resultado médio final.
+<br>
+    Data de Entrega: (Data a ser definida)
+<br>   
+
+#### 9.16 TRABALHO DE MINERAÇÃO DE DADOS COM ORANGE<br>   
+        a) captura das informaçõs
+        b) integração com banco de dados em desenvolvimento
+        c) aplicação de algoritmos e interpretação dos resultados
+        c) atualização da documentação do trabalho incluindo a mineração de dados
+<br>
+    Data de Entrega: (Data a ser definida)
+<br>
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
+<br>
+    Data de Entrega: (Data a ser definida)
+<br>
+
+### 11 Backup completo do banco de dados postgres 
+    a) deve ser realizado no formato "backup" 
+        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
+    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
+    c) informar aqui o grupo de alunos/dupla que realizou o teste.
+
+    
+### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
         b) executar todas as consultas presentes no trabalho
         c) executar códigos que tenham sido construídos para o trabalho 
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
-        
-### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-### 13   TRABALHO DE MINERAÇÃO DE DADOS
-        a) captura das informaçõs
-        b) integração com banco de dados em desenvolvimento
-        c) atualização da documentação do trabalho incluindo a mineração de dados
-        
-### 13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
+### 13	DIFICULDADES ENCONTRADAS PELO GRUPO<br>  
+
+    
+>## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
+
+       
+### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
 ##### About Formatting
@@ -155,23 +229,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ##### Basic Formatting in Git
     
     https://help.github.com/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests
-    
+   
     
 ##### Working with advanced formatting
     https://help.github.com/articles/working-with-advanced-formatting/
+
 #### Mastering Markdown
     https://guides.github.com/features/mastering-markdown/
 
-
-
-### 14 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
-    
->## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
-    
 ### OBSERVAÇÕES IMPORTANTES
 
 #### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
@@ -189,5 +254,15 @@ http://sis4.com/brModelo/brModelo/download.html
 
 Link para curso de GIT<br>
 ![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
+
+
+        
+        
+
+
+    
+
+
+
 
 
