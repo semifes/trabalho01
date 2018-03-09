@@ -124,9 +124,19 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+        
+
+## Marco de Entrega 02 em: (16/06/2018)<br>
+### ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO SEMESTRAL (Mínimo 6 e Máximo 10)<br>
+<br>
+    Data de Entrega: (30/06/2018)
+<br>
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
@@ -135,34 +145,18 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
-## Marco de Entrega 02 em: (16/06/2018)<br>
-### ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO SEMESTRAL (Mínimo 6 e Máximo 10)<br>
-<br>
-    Data de Entrega: (30/06/2018)
-<br>
-
-
-
-#### 9.11	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
+#### 9.11	LISTA DE CODIGOS DAS FUNÇÕES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.
         a) Objetivo
-        b) Código do objeto (função/trigger/asserção)
+        b) Código do objeto (função/trigger)
         c) exemplo de dados para aplicação
         d) resultados em forma de tabela/imagem
 <br>
 
-#### 9.12	Administração do banco de dados<br>
-        Descrição detalhada sobre como serão executadas no banco de dados as <br>
-        seguintes atividades.
-        a) Segurança e autorização de acesso:
-        b) Estimativas de aquisição de recursos para armazenamento e processamento da informação
-        c) Planejamento de rotinas de manutenção e monitoramento do banco
-        d) Plano com frequencia de análises visando otimização de performance
-<br>
 
-#### 9.13	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
-        a) principal tabela do sistema deve ter no mínimo 1,5 milhão de registros
-        b) tabelas diretamente relacionadas a tabela principal 100 mil registros
+#### 9.12	GERACAO DE DADOS (MÍNIMO DE 100 MIL REGISTROS PARA PRINCIPAL RELAÇAO)<br>
+        a) principal tabela do sistema deve ter no mínimo 100 mil registros
+        b) tabelas diretamente relacionadas a tabela principal 10 mil registros
         c) tabelas auxiliares de relacao multivalorada mínimo de 10 registros
         d) registrar o tempo de inserção em cada uma das tabelas do banco de dados
         e) especificar a quantidade de registros inseridos em cada tabela
@@ -170,8 +164,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         https://github.com/discipbd2/base-de-testes-locadora
         
 
-
-#### 9.14	Backup do Banco de Dados<br>
+#### 9.13	Backup do Banco de Dados<br>
         Detalhamento do backup.
         a) Tempo
         b) Tamanho
@@ -184,7 +177,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 Data de Entrega: (Data a ser definida)
 <br>
 
-#### 9.15	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
+#### 9.14	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
     a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas 
     b) Performance esperada VS Resultados obtidos
     c) Tabela de resultados comparando velocidades antes e depois da aplicação dos índices (constando velocidade esperada com planejamento, sem indice e com índice Vs velocidade de execucao real com índice e sem índice).
@@ -195,15 +188,6 @@ Data de Entrega: (Data a ser definida)
 <br>
     Data de Entrega: (Data a ser definida)
 <br>   
-
-#### 9.16 TRABALHO DE MINERAÇÃO DE DADOS COM ORANGE<br>   
-        a) captura das informaçõs
-        b) integração com banco de dados em desenvolvimento
-        c) aplicação de algoritmos e interpretação dos resultados
-        c) atualização da documentação do trabalho incluindo a mineração de dados
-<br>
-    Data de Entrega: (Data a ser definida)
-<br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 <br>
