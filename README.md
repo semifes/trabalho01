@@ -1,5 +1,5 @@
 # TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de Bando de Dados do Integrado
+Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
 
@@ -28,7 +28,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
@@ -38,12 +38,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
+    c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+    b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 >## Marco de Entrega 01 em: (24/03/2018)<br>
 
