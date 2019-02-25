@@ -5,15 +5,20 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...
+primeiro_componente_do_grupo: joaogustavobispo15@outlook.com<br>
+segundo_componente_do_grupo: desouzagabriel80@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados Sematico
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+> A empresa "Semifes Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se que um dos maiores problemas das grandes metrópoles é transito, a Semifes estar criando um sistema com o foco de melhorar o fluxo dos transito. os Sematicos são semáfaros automáticos que irão se adeguar a fluxo atual de onde esta instalado, além de conter funções para ajudar a ter um tránsito mais seguro, como:<br>
+<br>
+ .Alterar para somente alerta dependendo do horário;<br>
+ .Câmera de vídeo monitoramento;<br>
+ .Controle de velocidade (Mesma função do radar);<br>
+ .Avanço de sinal vermelho.<br>
+O Sematico irá ajudar a melhorar o tránsito e ira poupar tempo para trabalhos policíais/socorristas em caso de acidente, devido a câmera e o dector de fluxo. 
  
 
 ### 3.MINI-MUNDO Novo<br>
