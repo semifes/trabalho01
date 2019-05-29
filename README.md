@@ -12,19 +12,19 @@ segundo_componente_do_grupo: desouzagabriel80@gmail.com<br>
 Este documento contém a especificação do projeto do banco de dados Sematico
 <br>e motivação da escolha realizada. <br>
 
->A empresa "Semifes Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se que um dos maiores problemas das grandes metrópoles é transito, a Semifes estar criando um sistema com o foco de melhorar o fluxo dos transito. os Sematicos são semáfaros automáticos que irão se adeguar a fluxo atual de onde esta instalado, além de conter funções para ajudar a ter um tránsito mais seguro, como:<br>
+>A empresa "Semifes Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se que um dos maiores problemas das grandes metrópoles é transito, a Semifes está criando um sistema com o foco de melhorar o fluxo dos transito. os Semáticos são semáforos automáticos que irão se adequar a fluxo atual de onde esta instalado, além de conter funções para ajudar a ter um trânsito mais seguro, como:<br>
 
->Alterar para somente alerta dependendo do horário;<br>
- Câmera de vídeo monitoramento;<br>
- Controle de velocidade (Mesma função do radar);<br>
- Avanço de sinal vermelho.<br>
+>Alterar para somente alerta dependendo do horário;
+Câmera de videomonitoramento;
+Controle de velocidade (Mesma função do radar);
+Avanço de sinal vermelho.<br>
  
->O Sematico irá ajudar a melhorar o tránsito e ira poupar tempo para trabalhos policíais/socorristas em caso de acidente, devido a câmera e o dector de fluxo. 
+>O Semático ajudará a melhorar o trânsito e ira poupar tempo para trabalhos policiais/socorristas em caso de acidente, devido a câmera e o detector de fluxo. 
  
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO<br>
 
->O sistema proposto para o Semifes conterá as informacões aqui detalhadas. Dos Pessoas serão armazenados a placa do carro, nome, endereço, cpf, rg, data de nacimente, cnh, pontos e sexo. Dos Carros serão armazenados o placa, modelo, cor, motorista, situação. O cliente destacou que cada carro pode ter somente um dono, e cada pessoa pode estar ter mais de um carro. Os dados relativos as Multas que serão armazenados são: placa, nome, cpf, local, hora e data. É importante destacar que cada carro deve obrigatoriamente pertencer a somente uma pessoa, mas a pessoa pode ter vários carros. O motorista terá acesso aos dados do seu carro atráves de um login e senha, que sera baseados nos dados já armazenado. O motorista pode ter um dependente, caso ocorra algo com ele q o imposibilite digirir o veiculo ele pode colocar o nome de outra pessoa, como o filho por exemplo. Com relação aos dependentes serão armazenadas as seguintes informações: nome, endereço, cpf, rg, data de nacimente, cnh, pontos, sexo e grau de parentesco. Cada motorista pode ter 5 dependentes, podendo alterar atráves do sitema. Com relação ao histórico de multas devemos armazenar as informações de valor da multa, categoria, data da multa, horario, pontos perdidos e local. É importante lembrar que cada motorista pode ter diversos eventos de histórico de multa associados a ele visto que tera um limite baseados nos pontos. 
+>O sistema proposto para o Semifes conterá as informações aqui detalhadas. Dos Pessoas serão armazenados a placa do carro, nome, endereço, cpf, rg, data de nascimento, cnh, pontos e sexo. Dos Carros serão armazenados a placa, modelo, cor, motorista, situação. O cliente destacou que cada carro pode ter somente um dono, e cada pessoa pode estar ter mais de um carro. Os dados relativos as Multas que serão armazenados são: placa, nome, cpf, local, hora e data. É importante destacar que cada carro deve obrigatoriamente pertencer a somente uma pessoa, mas a pessoa pode ter vários carros. O motorista terá acesso aos dados do seu carro através de um login e senha, que será baseado nos dados já armazenado. O motorista pode ter um dependente, caso ocorra algo com ele q o impossibilite dirigir o veículo ele pode colocar o nome de outra pessoa, como o filho por exemplo. Com relação aos dependentes serão armazenadas as seguintes informações: nome, endereço, cpf, rg, data de nascimento, cnh, pontos, sexo e grau de parentesco. Cada motorista pode ter 5 dependentes, podendo alterar através do sistema. Com relação ao histórico de multas devemos armazenar as informações de valor da multa, categoria, data da multa, horário, pontos perdidos e local. É importante lembrar que cada motorista pode ter diversos eventos de histórico de multa associados a ele visto que tera um limite baseados nos pontos. 
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
